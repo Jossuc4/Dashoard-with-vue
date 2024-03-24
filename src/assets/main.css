@@ -1,0 +1,10 @@
+:root{
+    --main-theme-color: rgb(35, 184, 151);
+}
+#app{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(223, 223, 223, 0.281);
+    overflow: hidden;
+}
