@@ -1,0 +1,16 @@
+.panel{
+    position: absolute;
+    background-color: rgb(255, 253, 253);
+    padding: 20px 8px;
+    z-index: 100 !important;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(206, 204, 204, 0.212);
+}
+#search{
+    height: 30px;
+    background-color: white;
+    border: solid .4px rgba(206, 204, 204, 0.212);
+    border-radius: 8px;
+    padding-left: 30px;
+    max-height: 150px;
+}

@@ -1,0 +1,130 @@
+@import url("../src/assets/main.css");
+
+.container-dp {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    z-index: 100 !important;
+    background-color: white;
+    display: flex;
+    width: 40vw;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px rgba(177, 171, 171, 0.548);
+}
+
+.filters {
+    color: black;
+    font-size: 14px;
+    width: 42%;
+    padding-left: 20px;
+    border-left: solid .4px rgba(37, 36, 36, 0.664);
+}
+
+.filters h1 {
+    font-size: 17px;
+    text-align: start;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.filters h4 {
+    height: fit-content;
+    padding: 2px 5px;
+    text-align: start;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.filters h4:hover {
+    color: grey;
+}
+
+.filters .buttons {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+    height: 40px;
+}
+
+.buttons button {
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    transition: .6s all;
+    cursor: pointer;
+}
+
+.buttons .cancel {
+    border: solid 1px var(--main-theme-color);
+    color: var(--main-theme-color);
+    background-color: white;
+}
+
+.buttons .cancel:hover {
+    box-shadow: 1px 1px rgba(35, 184, 152, 0.425);
+    scale: 1.08;
+}
+
+.buttons .apply {
+    border: none;
+    background-color: var(--main-theme-color);
+    color: white;
+}
+
+.buttons .apply:hover {
+    box-shadow: 1px 1px rgba(35, 184, 152, 0.425);
+    scale: 1.08;
+}
+
+.clicked-option {
+    color: grey;
+}
+
+/* Sky blue */
+.vc-sky-blue {
+    --vc-accent-50: #f0f9ff;
+    --vc-accent-100: #e0f2fe;
+    --vc-accent-200: rgba(13, 238, 189, 0.329);
+    --vc-accent-300: rgb(125, 211, 252);
+    --vc-accent-400: rgb(15, 77, 63);
+    --vc-accent-500: rgb(30, 121, 101);
+    --vc-accent-600: rgb(13, 160, 128);
+    --vc-accent-700: rgb(35, 184, 151);
+    --vc-accent-800: rgb(35, 184, 151);
+    --vc-accent-900: rgba(17, 20, 20, 0.795);
+}
+
+.over-round {
+    position: relative;
+}
+
+.over-round::before {
+    content: ' ';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: transparent;
+    top: -3.7px;
+    left: -3.5px;
+    border: solid 1px black;
+    z-index: -1 !important;
+}
+
+.basics{
+    height: 20px;
+}
+
+.little-round{
+    width: 25px;
+    height: 25px;
+}
+
+.selected{
+    color: gray;
+}

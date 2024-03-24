@@ -1,0 +1,36 @@
+.main-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 400px;
+    height: fit-content;
+    position: relative;
+}
+.body{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 5px;
+}
+.body .title{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+.body .variable{
+    color: rgb(35, 184, 151);
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 7px;
+    border-radius: 5px;
+    transition: all .6s;
+    width: 240px;
+}
+.body .variable:hover{
+    background-color: rgba(35, 184, 152, 0.425);
+}
